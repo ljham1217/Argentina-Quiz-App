@@ -68,6 +68,10 @@ h1 {
     padding: 20px;
 }
 
+h2 {
+    font-size: 22px;
+    padding: 20px;
+}
 p {
     padding: 0px 20px;
     text-align:justify;
@@ -204,27 +208,9 @@ img{
     background-color: transparent;
 }
 
-/*@media screen and (max-width: 959px) {
-    header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 30px;
-        background-color: red;
-    }
-
-    h1 {
-        font-size: 16px;
-    }
-
-    p {
-        font-size: 16px
-    }
-}*/
-
-@media screen and (max-width: 940px) {
+@media only screen and (max-width: 940px) {
     .quizStart, .questionAnswerForm, .answerForm {
-        width: 70%;
+        width: 90%;
         margin-bottom: 20px;
     }
     
@@ -239,7 +225,7 @@ img{
     }
 
     h1 {
-        font-size: 16px;
+        font-size: 24px;
         text-align: left;
         padding: 20px 0 0 0;
     }
@@ -254,7 +240,7 @@ img{
     }
 
     .quizStart, .questionAnswerForm, .answerForm {
-        width: 70%;
+        width: 90%;
         margin-bottom: 20px;
     }
 
@@ -267,7 +253,7 @@ img{
     }
 
     ul.navigation, li {
-        font-size: 14px;
+        font-size: 18px;
         padding: 0;
         color: #000;
     }

@@ -5,12 +5,12 @@ let score=0;
 
 
 function startQuiz(){
-    //this function will hide the start div and display the form div
-    $('.startbutton').on('click', function (){
-        $('.quizStart').hide();
-        $('.questionAnswerForm').css('display','block');
-        $('.questionNumber').text(1);
-    });
+//this function will hide the start div and display the form div
+$('.startbutton').on('click', function (){
+    $('.quizStart').hide();
+    $('.questionAnswerForm').css('display','block');
+    $('.questionNumber').text(1);
+});
 }
 
 function generateQuestion() {
@@ -46,11 +46,6 @@ function renderQuiz(){
         $('.questionAnswerForm').html(generateQuestion());
 }
 
-/*function enableSubmitButton(){
-    $('input[name=answer]').on('click', function (event){
-        $('.submitbutton').prop('disabled', false);
-    })
-}*/
 function submitQuizAnswer() {
     $('.questionAnswerForm').on('click', '.submitbutton', function(event) {
         event.preventDefault();
@@ -82,7 +77,7 @@ function correctView(){
     $('.answerForm').css('display','flex');
     $('.answerForm').html(
         `<img src="${questionsArray[questionNumber].image}" alt="${questionsArray[questionNumber].alt}">
-        <h1>Correct!</h1>
+        <h2>Correct!</h2>
         <p>${questionsArray[questionNumber].description}</p>    
         <button type="button" class="nextQuestion">Next</button>`
     );
@@ -94,7 +89,7 @@ function wrongView(){
     $('.answerForm').css('display','flex');
     $('.answerForm').html(
         `<img src="${questionsArray[questionNumber].image}" alt="${questionsArray[questionNumber].alt}">
-        <h1>Sorry, you got it wrong.</h1>
+        <h2>Sorry, you got it wrong.</h2>
         <p>${questionsArray[questionNumber].description}</p>    
         <button type="button" class="nextQuestion">Next</button>`
     );
