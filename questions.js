@@ -21,7 +21,7 @@ const questionsArray = [
             "Tango"
         ],
         correctAnswer: "Mate",
-        description: "Mate is Argentina's national drink. Yerba mate is a tea prepared most traditionally in a gourd. The infused yerba mate herbs are not strained out from the water, but instead are sipped through a 'bombille' that acts both as straw and sieve. Yerba mate is prepared in one gourd that is shared; this is part of the social and cultural experience of drinking yerba mate.",
+        description: "Mate is Argentina's national drink. Yerba mate is a tea prepared most traditionally in a gourd. The infused yerba mate herbs are not strained out from the water, but instead are sipped through a 'bombilla' that acts both as straw and sieve. Yerba mate is prepared in one gourd that is shared; this is part of the social and cultural experience of drinking yerba mate.",
         image: "images/Yerba-Mate.jpg",
         alt: "Yerba Mate"
     },
