@@ -19,7 +19,7 @@ function generateQuestion() {
         return `<form><fieldset>    
            
             <legend><h1>${questionsArray[questionNumber].question}</h1></legend>
-            <p style="margin-bottom: 20px"><span class="alert hidden"> Please make a selection below:</span></p> 
+            <p style="margin-bottom: 20px"><span class="alert hidden">Please make a selection below:</span></p> 
             <label for="answer1" class="radioContainer">${questionsArray[questionNumber].answers[0]}
             <input type="radio" id="answer1" value="${questionsArray[questionNumber].answers[0]}" name="answer">
             <span class="circle"></span></label><br>
