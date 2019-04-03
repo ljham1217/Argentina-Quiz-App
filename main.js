@@ -54,7 +54,7 @@ function renderQuiz(){
 function submitQuizAnswer() {
     $('.questionAnswerForm').on('click', '.submitbutton', function(event) {
         event.preventDefault();
-        $('.score').text(score);
+        console.log(score);
         compareAnswer();
     });
 }
@@ -67,7 +67,8 @@ function compareAnswer() {
         if (selected === rightChoice) {
             correctView();
             incrementQuestion();
-            quizScore();
+            score++;
+            $('.score').text(score);
         } else if ($('input[name=answer]:checked').length === 0) {
             $('.questionAnswerForm').find('span').removeClass('hidden');
         } else if (selected !== rightChoice) {
@@ -145,11 +146,6 @@ function startNewQuiz(){
 
 function incrementQuestion() {
         questionNumber++;
-}
-
-function quizScore(){
-    /*increment the score.*/
-    score++;
 }
 
 function handleQuiz(){
