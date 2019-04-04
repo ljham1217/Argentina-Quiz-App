@@ -11,6 +11,21 @@ body {
     background-size: cover;
 }
 
+body:after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background: url("images/BuenosAires.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /*header styling*/
 
 header {
@@ -216,16 +231,19 @@ img{
     
 }
 @media screen and (max-width: 640px) {
+    body {
+        background-attachment: scroll;
+    }
     header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 0px 0px 0px;
+        padding: 40px 0px 0px 0px;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 18px;
         text-align: left;
         padding: 20px 0 0 0;
     }
@@ -236,7 +254,7 @@ img{
     }
 
     p {
-        font-size: 16px
+        font-size: 16px;
     }
 
     .quizStart, .questionAnswerForm, .answerForm {
@@ -260,6 +278,11 @@ img{
 
     .quizStart {
         background-color: #F5F5F5;
+    }
+
+    .resultsPage {
+        background-color: #F5F5F5;
+        line-height: 3em;
     }
 
     button.startbutton {
