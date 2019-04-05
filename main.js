@@ -19,7 +19,7 @@ function generateQuestion() {
         return `<form><fieldset>    
            
             <legend><h1>${questionsArray[questionNumber].question}</h1></legend>
-            <p style="margin-bottom: 20px"><span class="alert hidden">Please make a selection below:</span></p> 
+            <p class="alert hidden">Please make a selection below:</p> 
             <label for="answer1" class="radioContainer">${questionsArray[questionNumber].answers[0]}
             <input type="radio" id="answer1" value="${questionsArray[questionNumber].answers[0]}" name="answer">
             <span class="circle"></span></label><br>
@@ -65,7 +65,7 @@ function compareAnswer() {
             score++;
             $('.score').text(score);
         } else if ($('input[name=answer]:checked').length === 0) {
-            $('.questionAnswerForm').find('span').removeClass('hidden');
+            $('.questionAnswerForm').find('p').removeClass('hidden');
         } else if (selected !== rightChoice) {
             wrongView();
             incrementQuestion();

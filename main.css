@@ -19,7 +19,7 @@ body:after{
     left:0;
     right:0;
     z-index:-1; /* needed to keep in the background */
-    background: url("images/BuenosAires.jpg");
+    background: url("images/BuenosAires_compressed.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -78,7 +78,7 @@ main {
 
 h1 {
     text-align: left;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
     padding: 20px;
 }
@@ -90,10 +90,13 @@ h2 {
 p {
     padding: 0px 20px;
     text-align:justify;
+    font-size: 16px;
 }
 
 .alert {
     color: red;
+    padding: 0px;
+    margin-bottom: 20px;
 }
 
 .hidden {
@@ -200,7 +203,7 @@ button {
     border:none;
     background-color:#74ACDF;
     color:#ffffff;
-    font-size:14px;
+    font-size:16px;
     text-transform: uppercase;
     border-radius: 0;
     cursor: pointer;
@@ -243,7 +246,6 @@ img{
     }
 
     h1 {
-        font-size: 18px;
         text-align: left;
         padding: 20px 0 0 0;
     }
@@ -251,10 +253,6 @@ img{
     .start {
         text-align: center;
         padding: 20px;
-    }
-
-    p {
-        font-size: 16px;
     }
 
     .quizStart, .questionAnswerForm, .answerForm {
@@ -291,8 +289,9 @@ img{
 
     button {
         padding: 10px;
-        margin-top: 10px;
-        font-size:12px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size:16px;
         width: 50%;
     }
 }
