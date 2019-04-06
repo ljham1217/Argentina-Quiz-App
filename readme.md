@@ -1,24 +1,35 @@
-#Argentina Quiz App README
+# Argentina Quiz App README
 Simple quiz app about Argentina.
 
-##Description
-User should be prompted through 10 multiple choice questions. User should not be able to skip questions.
+## Requirements
+***
+1. Create a responsive quiz app
 
-App needs to track what question the user is on, and their score.
+2. User should be prompted through 10 multiple choice questions. User should not be able to skip questions.
 
-Upon submitting an answer, user should receive textual feedback about their answer (wrong or right) and be able to move on to the next question.
+3. App needs to track what question the user is on, and their score.
 
-At the end of the quiz, user should be shown their overall socre and be given the chance to start a new quiz.
+4. Upon submitting an answer, user should receive textual feedback about their answer (wrong or right) and be able to move on to the next question.
+
+5. At the end of the quiz, user should be shown their overall score and be given the chance to start a new quiz.
 
 
-##Built With
-    HTML
-    CSS
-    Javascript
-    JQuery
+    <p float="left">
+        <img src="images/homescreen.png" width="200" />
+        <img src="images/questionspage.png" width="200" /> 
+    </p>
 
-##Acknowledgements
 
-Buenos Aires image: Photo by Andrea Leopardi on Unsplash 
-Tierra del Fuego image: Photo by Loïc Mermilliod on Unsplash
-Yerba Mate Image: Argentina Travel Blog sayhueque.com
+## Built With
+***
+- HTML
+- CSS
+- Javascript
+- JQuery
+
+## Acknowledgements
+***
+
+* Buenos Aires image: Photo by Andrea Leopardi on Unsplash 
+* Tierra del Fuego image: Photo by Loïc Mermilliod on Unsplash
+* Yerba Mate Image: Argentina Travel Blog sayhueque.com
