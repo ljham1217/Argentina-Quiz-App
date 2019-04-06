@@ -18,6 +18,9 @@ Simple quiz app about Argentina.
         <img src="images/homescreen.png" width="200" />
         <img src="images/questionspage.png" width="200" /> 
     </p>
+    <p float="left">
+        <img src="images/ipad.png" width="400" /> 
+    <p>
 
 
 ## Built With
