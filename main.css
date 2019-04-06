@@ -187,6 +187,7 @@ transform: translate(-50%,-50%);
     margin-bottom: 40px;
     width: 50%;
     align-items: center;
+    border-radius: 20px;
 }
 
 .questionAnswerForm, .answerForm {
@@ -200,14 +201,14 @@ transform: translate(-50%,-50%);
 button {
     padding: 15px;
     margin-top: 30px;
-    border:none;
     background-color:#74ACDF;
     color:#ffffff;
+    border: none;
     font-size:16px;
     text-transform: uppercase;
-    border-radius: 0;
+    border-radius: 5px;
     cursor: pointer;
-    width: 50%;
+    width: 30%;
   }
 
   button.nextQuestion {
@@ -220,6 +221,7 @@ img{
     width: 100%;
     max-height: 400px;
     object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .resultsPage {
@@ -281,6 +283,7 @@ img{
     .resultsPage {
         background-color: #F5F5F5;
         line-height: 3em;
+        text-align: center;
     }
 
     button.startbutton {
@@ -293,5 +296,9 @@ img{
         margin-bottom: 10px;
         font-size:16px;
         width: 50%;
+    }
+
+    .center {
+        text-align: center;
     }
 }

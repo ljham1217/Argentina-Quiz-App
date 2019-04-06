@@ -119,16 +119,16 @@ function generateNextQuestion() {
 
 function highScore() {
     $('.answerForm').addClass('resultsPage').html(
-        `<h1>Congratulations! You're a pro!</h1>
-        <p>You got ${score} out of 9 answers.</p>
+        `<h1 class="center">Congratulations! You're a pro!</h1>
+        <p class="center">You got ${score} out of 9 answers.</p>
         <button type="button" class="startbutton">Start New Quiz</button>`
         );
 }
 
 function lowScore() {
     $('.answerForm').addClass('resultsPage').html(
-        `<h1>You could learn more about Argentina.</h1>
-        <p>You got ${score} out of 9</p>
+        `<h1 class="center">You could learn more about Argentina.</h1>
+        <p class="center">You got ${score} out of 9</p>
         <button type="button" class="startbutton">Start New Quiz</button>`
         );
 }
