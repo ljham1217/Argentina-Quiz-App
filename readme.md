@@ -2,7 +2,7 @@
 Simple quiz app about Argentina.
 
 ## Requirements
-***
+
 1. Create a responsive quiz app
 
 2. User should be prompted through 10 multiple choice questions. User should not be able to skip questions.
@@ -21,14 +21,13 @@ Simple quiz app about Argentina.
 
 
 ## Built With
-***
+
 - HTML
 - CSS
 - Javascript
 - JQuery
 
 ## Acknowledgements
-***
 
 * Buenos Aires image: Photo by Andrea Leopardi on Unsplash 
 * Tierra del Fuego image: Photo by Loïc Mermilliod on Unsplash
